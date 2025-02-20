@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-const apiUrl = "https://95rkrdtq03.execute-api.us-west-1.amazonaws.com/prod/get-latest-event"; // Replace with actual API Gateway URL
+const API_URL = "https://95rkrdtq03.execute-api.us-west-1.amazonaws.com/prod/get-latest-event"; // Replace with actual API Gateway URL
 
 function App() {
     const [data, setData] = useState({ Confidence: "Loading...", Oxygen: "Loading...", Timestamp: "Loading..." });
